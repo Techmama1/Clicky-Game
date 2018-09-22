@@ -2,9 +2,7 @@
   {
     "id": 1,
     "name": "SpongeBob",
-    "image": "http://i67.tinypic.com/ojeets.jpg",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "image": "http://i67.tinypic.com/ojeets.jpg"
   },
   {
     "id": 2,
