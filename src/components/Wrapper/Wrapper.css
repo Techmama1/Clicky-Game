@@ -1,27 +1,6 @@
 .wrapper {
   padding-top: 50px;
   background: grey; 
-  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAcDsomLUDv36iBWRxbMWpN8pQYEtIaqIFapKb-XWp5gVrTZBc"); */
-  
-  /* ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJgCDpLbpC_LuXVPCqLYGW9j_zHbH6sXtrhvlbydno-mt9vRSZ");  */
-
-  
-  
-  /* ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Pzb5yvxrpp5vBdkBAxQqvCs4NLhFdmDYfPW2tSm3AUUlcHPD8A"); */
-  
-  /* ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRmvYKOWoylBU8UKMc88_0H5DC5SIAeWPRpFTZlByZdmK977skhg"); */
-  
-/*   
-  ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0bnP2C5jVkuaNBRmuqpF_IkLMdBieJXSLG6pjTDDjZu5TnStX5Q"); */
-  
-  /* ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWhb45sRF61OjmaoLbuTA_3Ij9uMM-LnnR2vU5nt_8fYbr7YFdyA"); */
-  
-  
-  /* ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonKuuWj0igwKtLE2gwSYw_hSUhv23kgwTlcO16YOWfqeHlU6z"); */
-  
-  
-  /* ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa4_lyZbEF9zsQ1nh9Omf2Te1jIxDPT_-r-FIAGfaAN6urqvtY"); */
-  
   height: 100%;
   display: flex;
   flex-flow: row wrap;

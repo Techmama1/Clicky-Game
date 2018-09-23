@@ -39,7 +39,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Friends List</Title>
+        <Title>The Jetson's Clicky-Game!</Title>
         <p>{this.state.picks}</p>
         {this.state.friends.map(friend => (
           <FriendCard
@@ -48,7 +48,6 @@ class App extends Component {
             key={friend.id}
             name={friend.name}
             image={friend.image}
-            occupation={friend.occupation}
             location={friend.location}
           />
         ))}
