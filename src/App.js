@@ -3,7 +3,10 @@ import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import friends from "./friends.json";
+import NavBar from "./components/NavBar/NavBar";
 import "./App.css";
+
+
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
@@ -11,45 +14,54 @@ class App extends Component {
     super(props);
     this.state = {
       picks : [],
-      friends
+      friends,
+      currentScore: 0,
+      topScore: 0,
+      rightWrong: "",
+      clicked: [],
     };
   
   }
  
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
-  };
+ 
   
   selectCharacter( id ) {
     
-    let friends = this.state.friends.sort(function() { return 0.5 - Math.random() });
+  let friends = this.state.friends.sort(function() { return 0.5 - Math.random() });
     
-    this.setState({
-      picks : [...this.state.picks, id],
-      friends
-    }
-    )
-    
-  }
+     this.setState({
+       picks : [...this.state.picks, id],
+       friends
+     }
+     ) 
+     this.checkInput(id);
+   }
+
+   checkInput( id ){
+      if(this.state.picks.includes(id)){
+        alert('you lose');
+        this.setState({currentScore : 0});
+      } else {
+        this.setState({
+          currentScore: this.state.currentScore + 1
+        })
+      }
+   }
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <Wrapper>
+        <NavBar currentScore = {this.state.currentScore} topScore={this.state.topScore}/>
         <Title>The Jetson's Clicky-Game!</Title>
-        <p>{this.state.picks}</p>
+       
         {this.state.friends.map(friend => (
           <FriendCard
             selectCharacter = {this.selectCharacter.bind(this)}
             id={friend.id}
             key={friend.id}
-            name={friend.name}
-            image={friend.image}
-            location={friend.location}
-          />
+            image={friend.image} 
+          />  
         ))}
       </Wrapper>
     );

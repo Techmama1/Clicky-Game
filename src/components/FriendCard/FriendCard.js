@@ -4,7 +4,7 @@ import "./FriendCard.css";
 const FriendCard = props => (
   <div onClick={()=> props.selectCharacter(props.id) } className="card">
     <div className="img-container">
-      <img alt={props.name} src={props.image} />
+      <img alt={props.name} src={props.image}/>
     </div> 
   </div>
 );

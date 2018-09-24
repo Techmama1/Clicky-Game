@@ -7,78 +7,56 @@
   {
     "id": 2,
     "name": "Mr. Krabs",
-    "image": "http://i64.tinypic.com/289k2u0.jpg", 
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "image": "http://i64.tinypic.com/289k2u0.jpg"
   },
   {
     "id": 3,
     "name": "Squidward",
-    "image": "http://i65.tinypic.com/33xfng2.jpg",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "image": "http://i65.tinypic.com/33xfng2.jpg"
   },
   {
     "id": 4,
     "name": "Dexter",
-    "image": "http://i66.tinypic.com/sqjkgz.jpg",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "image": "http://i66.tinypic.com/sqjkgz.jpg"
   },
   {
     "id": 5,
     "name": "Courage",
-    "image": "http://i63.tinypic.com/2r40tjp.jpg",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "image": "http://i63.tinypic.com/2r40tjp.jpg"
   },
   {
     "id": 6,
     "name": "Doug Funnie",
-    "image": "http://i68.tinypic.com/jgmwbq.png",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "image": "http://i68.tinypic.com/jgmwbq.png"
   },
   {
     "id": 7,
     "name": "Bugs Bunny",
-    "image": "http://i65.tinypic.com/168d7oj.jpg",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "image": "http://i65.tinypic.com/168d7oj.jpg"
   },
   {
     "id": 8,
     "name": "Johnny Bravo",
-    "image": "http://i67.tinypic.com/a0zzp4.jpg",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "image": "http://i67.tinypic.com/a0zzp4.jpg"
   },
   {
     "id": 9,
     "name": "Tommy Pickles",
-    "image": "http://i66.tinypic.com/atx76e.jpg",
-    "occupation": "Adventurer",
-    "location": "California"
+    "image": "http://i66.tinypic.com/atx76e.jpg"
   },
   {
     "id": 10,
     "name": "Rocko",
-    "image": "http://i68.tinypic.com/29z4mqs.jpg",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "image": "http://i68.tinypic.com/29z4mqs.jpg"
   },
   {
     "id": 11,
     "name": "Captain Planet",
-    "image": "http://i68.tinypic.com/2jeod4n.jpg",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "image": "http://i68.tinypic.com/2jeod4n.jpg"
   },
   {
     "id": 12,
     "name": "Ickis",
-    "image": "http://i66.tinypic.com/i39vvb.jpg",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "http://i66.tinypic.com/i39vvb.jpg"
   }
 ]
